@@ -1,0 +1,16 @@
+# when this is set to true any item that gets filtered by a loot filter will automatically be deleted
+deleteFilteredItems: false
+# the amount of time in ticks an item cannot be picked up again if it got filtered by a loot filter
+# if deleteFilteredItems is set to true this setting is irrelevant
+filteredItemPickupDelay: 100
+# the amount of time in ticks a filter condition will be considered true after it was checked true once
+# the lower this number is the higher is the impact on performance
+# higher numbers on the other hand can cause you to not pick an item up even though the filter condition is no longer true
+filterConditionCacheTime: 100
+# a list of all materials players are able to set up loot filters for
+materials:
+- dirt
+- cobblestone
+- granite
+- diorite
+- andesite

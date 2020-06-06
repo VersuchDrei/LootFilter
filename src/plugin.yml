@@ -1,0 +1,12 @@
+main: com.skitskurr.lootfilter.Main
+name: LootFilter
+version: 1.0
+description: A plugin to filter the loot a player picks up.
+api-version: 1.15
+author: Skitskurr
+depend: [MenuManager, DataManager]
+
+commands:
+  lootfilter:
+    description: Opens the menu to configure the lootfilter.
+    usage: /<command>
