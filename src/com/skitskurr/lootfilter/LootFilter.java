@@ -35,7 +35,7 @@ public class LootFilter {
 	
 	public static LootFilter loadLootFilter(final Player player) {
 		final Optional<String> optionalFilterString = DataManager.Players.getString(player, LootFilter.PLUGIN_KEY, LootFilter.DATA_KEY_LOOT_FILTER);
-		if(optionalFilterString.isEmpty()) {
+		if(!optionalFilterString.isPresent()) {
 			return new LootFilter();
 		}
 		
