@@ -1,9 +1,9 @@
-main: com.skitskurr.lootfilter.Main
+main: com.versuchdrei.lootfilter.Main
 name: LootFilter
 version: 1.0
 description: A plugin to filter the loot a player picks up.
 api-version: 1.16
-author: Skitskurr
+author: VersuchDrei
 depend: [MenuManager, DataManager]
 
 commands:

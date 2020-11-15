@@ -6,8 +6,13 @@ import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
-import com.skitskurr.menumanager.implementations.FixedScrollableMenu;
+import com.versuchdrei.menumanager.implementations.FixedScrollableMenu;
 
+/**
+ * a menu for the lootfilters for all meterials
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class LootFilterMenu extends FixedScrollableMenu{
 	
 	private static List<LootFilterMenuItem> getItems(final List<Material> types) {

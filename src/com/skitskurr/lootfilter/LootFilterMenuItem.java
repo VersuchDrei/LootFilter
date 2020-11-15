@@ -8,10 +8,15 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import com.skitskurr.menumanager.implementations.MenuItem;
-import com.skitskurr.menumanager.implementations.MenuItemClickEvent;
-import com.skitskurr.menumanager.utils.ItemUtils;
+import com.versuchdrei.menumanager.implementations.MenuItem;
+import com.versuchdrei.menumanager.implementations.MenuItemClickEvent;
+import com.versuchdrei.menumanager.utils.ItemUtils;
 
+/**
+ * a menu item for the loot filter for a single material
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class LootFilterMenuItem extends MenuItem{
 	
 	private final Material type;

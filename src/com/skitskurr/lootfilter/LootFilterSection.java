@@ -10,6 +10,11 @@ import org.bukkit.inventory.ItemStack;
 
 import net.minecraft.server.v1_16_R1.MinecraftServer;
 
+/**
+ * a section of a loot filter for a single material
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class LootFilterSection {
 	
 	private static final String CONFIG_KEY_FILTER_CONDITION_CACHE_TIME = "filterConditionCacheTime";

@@ -6,10 +6,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import com.skitskurr.menumanager.ClickEvent;
-import com.skitskurr.menumanager.Menu;
-import com.skitskurr.menumanager.utils.ItemUtils;
+import com.versuchdrei.menumanager.ClickEvent;
+import com.versuchdrei.menumanager.Menu;
+import com.versuchdrei.menumanager.utils.ItemUtils;
 
+/**
+ * a menu where one can set the maximum stacks of the material they want in their inventory
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class MaxStacksMenu extends Menu{
 	
 	private final Inventory inventory;

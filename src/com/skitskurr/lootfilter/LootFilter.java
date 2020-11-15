@@ -14,14 +14,19 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import com.skitskurr.datamanager.DataManager;
-import com.skitskurr.menumanager.utils.MetadataUtils;
+import com.versuchdrei.datamanager.DataManager;
+import com.versuchdrei.menumanager.utils.MetadataUtils;
 
+/**
+ * a lootfilter, which gets attached to a player via metadata
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class LootFilter {
 	
 	static final String METADATA_KEY_LOOT_FILTER = "lootFilter";
 	
-	private static final String PLUGIN_KEY = "skitskurr_lootfilter";
+	private static final String PLUGIN_KEY = "versuchdrei_lootfilter";
 	private static final String DATA_KEY_LOOT_FILTER = "lootfilter";
 	
 	public static Optional<LootFilter> getLootFilter(final Player player) {

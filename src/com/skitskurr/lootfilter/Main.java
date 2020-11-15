@@ -12,6 +12,11 @@ import org.bukkit.craftbukkit.libs.org.apache.commons.lang3.EnumUtils;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * the main class of the loot filter
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class Main extends JavaPlugin{
 	
 	private static final String CONFIG_KEY_MATERIALS = "materials";

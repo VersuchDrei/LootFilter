@@ -13,8 +13,14 @@ import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.metadata.FixedMetadataValue;
 
-import com.skitskurr.menumanager.utils.MetadataUtils;
+import com.versuchdrei.menumanager.utils.MetadataUtils;
 
+/**
+ * the event listener of the loot filter, 
+ * handles pickup events and cancels them if they fall through the filter
+ * @author VersuchDrei
+ * @version 1.0
+ */
 public class EventListener implements Listener{
 
 	private static final String CONFIG_KEY_DELETE_FILTERED_ITEMS = "deleteFilteredItems";
