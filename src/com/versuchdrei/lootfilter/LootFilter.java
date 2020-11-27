@@ -1,4 +1,4 @@
-package com.skitskurr.lootfilter;
+package com.versuchdrei.lootfilter;
 
 import java.util.HashMap;
 import java.util.Map;

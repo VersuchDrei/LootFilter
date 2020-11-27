@@ -1,4 +1,4 @@
-package com.skitskurr.lootfilter;
+package com.versuchdrei.lootfilter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
