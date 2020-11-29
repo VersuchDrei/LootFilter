@@ -53,7 +53,7 @@ public class EventListener implements Listener{
 		}
 		
 		final Optional<LootFilter> optionalFilter = MetadataUtils.getMetadata(plugin, entity, LootFilter.METADATA_KEY_LOOT_FILTER, LootFilter.class);
-		if(optionalFilter.isEmpty()) {
+		if(!optionalFilter.isPresent()) {
 			return;
 		}
 		
